@@ -1,4 +1,11 @@
-$('.container').on('click', () ->
-  alert('erert')
 
-)
+
+
+
+
+app = new Vue({
+  el: '#app',
+  data: {
+    title: 'Some title'
+  }
+  })
