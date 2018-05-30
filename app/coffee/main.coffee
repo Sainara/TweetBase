@@ -1,7 +1,7 @@
 app = new Vue({
   el: '#tweet-box',
   data: {
-    title: 'Some title',
+    title: 'TweetBase',
     resource_url: 'http://jsonplaceholder.typicode.com/posts',
     tweets : [],
     isLoading: false,
@@ -16,11 +16,8 @@ app = new Vue({
        boxHeight = box.offsetHeight
        listHeight = list.offsetHeight
        diffHeight = listHeight - boxHeight
-       console.log listHeight - boxHeight
-       console.log scrollTop
 
        if diffHeight == scrollTop && !this.isLoading
-
          this.loadContent()
 
     loadContent: () ->

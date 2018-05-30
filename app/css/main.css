@@ -7895,6 +7895,9 @@ body {
   background: #eee;
   overflow: hidden; }
 
+a:hover {
+  text-decoration: none; }
+
 ul {
   margin-bottom: 0; }
 
@@ -7926,14 +7929,15 @@ li {
     #tweet-box .box-content p {
       font-size: 16px;
       line-height: 17px;
-      margin-left: 35px;
+      margin-left: 40px;
       margin-bottom: 0; }
     #tweet-box .box-content h5 {
       font-size: 14px;
       font-weight: bold; }
     #tweet-box .box-content h6 {
       font-size: 12px;
-      line-height: 0; }
+      line-height: 0;
+      font-weight: lighter; }
     #tweet-box .box-content li {
       padding: 15px 20px;
       border-bottom: 1px solid rgba(15, 70, 100, 0.12); }
@@ -7942,12 +7946,9 @@ li {
         margin-bottom: 15px; }
       #tweet-box .box-content li img {
         cursor: pointer;
-        width: 25px;
+        width: 30px;
         float: left;
         margin-right: 10px; }
-
-.load-ico {
-  width: 16px; }
 
 img {
   -webkit-border-radius: 100%;
