@@ -39,7 +39,8 @@ gulp.task('coffee', function() {
 gulp.task('scripts', function() {
   return gulp.src([
     'app/libs/jquery/dist/jquery.min.js',
-    'app/libs/vue/dist/vue.min.js'
+    'app/libs/vue/dist/vue.min.js',
+    'app/libs/vue-resource/dist/vue-resource.min.js'
   ])
   .pipe(concat('libs.min.js'))
   .pipe(uglify())
